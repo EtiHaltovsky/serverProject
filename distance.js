@@ -69,7 +69,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
             });
         }
         // Usage:
-        DistanceInMinutes('קרית מלאכי', 'אשדוד').then((result) => {
+        DistanceInMinutes('קרית מלאכי', 'בני ברק').then((result) => {
             console.log(result);
         }).catch((err) => {
             console.error(err);
