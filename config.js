@@ -6,21 +6,21 @@ var app = express();
     var sql = require("mssql");
 
     // config for your database
-    const config = {
+    // const config = {
 
-        db: {
-            database: 'unite',
-            server: 'localhost',
-            user: 'uniteSQL',
-            password: '123456',
-            options: {
-                trustServerCertificate: true
+    //     db: {
+    //         database: 'unite',
+    //         server: 'localhost',
+    //         user: 'uniteSQL',
+    //         password: '123456',
+    //         options: {
+    //             trustServerCertificate: true
                 
     
-            }
-        }
-    }
-    module.exports = config;
+    //         }
+    //     }
+    // }
+    // module.exports = config;
     
 
 //     // connect to your database
